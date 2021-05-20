@@ -115,7 +115,7 @@ nav{
 .inputContainer input::placeholder{
     /* margin-left: 10%; */
     color: var( --lightBlue);
-    color: blue;
+    /*  color: blue; */
     font-weight: 500;
 
 }
@@ -243,10 +243,10 @@ nav{
     margin: 4% 0;
 }
 
-::placeholder{
+input::placeholder{
     /* margin-left: 10%; */
-    font-weight: 500;
-    color: #0D325CCC;
+    font-weight: 600;
+    color:  #0D325CCC;
 
 }
 /* style for the forms  */
@@ -375,7 +375,7 @@ footer{
 
 
 .copywright_section{
-    color: #FFFFFFD8;
+    color: #e6e6e6d8;
 
 background-color: #1A508C;
 text-align: center;
@@ -525,7 +525,6 @@ padding: .5rem .7rem;
         padding: .7rem .8rem;
         border-radius: 40px 0px 0px 40px;
     }
-    
     .nav-search{
         width: 20%;
         margin: 0;
