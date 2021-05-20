@@ -38,7 +38,7 @@ nav{
 .navlinks{
     z-index: 10;
     position: fixed;
-    width: 60%;
+    width: 70%;
     height: 100%;
     background-color: var(--lightBlue);
     padding: 1rem .6rem;
@@ -394,6 +394,15 @@ padding: .5rem .7rem;
 
 }
 @media screen and (min-width:500px) {
+.navlinks li a{
+    padding: 1rem .9rem;
+    margin: 1% 0;
+    max-width: 500px;
+    border-radius: 50px;
+}
+    .select-container{
+        margin: 0;
+    }
     .upload_image_btn{
         display: block;
         max-width: 500px;
@@ -508,8 +517,10 @@ padding: .5rem .7rem;
         padding: .64rem 1rem;
         
     }
-    .laptop_navlinks input[type=text]{
+    .laptop_navlinks #laptop_navlinks_searchText{
         width: 60%;
+        border: transparent;
+        /* border: 1px solid red; */
         margin: 0;
         padding: .7rem .8rem;
         border-radius: 40px 0px 0px 40px;
