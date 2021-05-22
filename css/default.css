@@ -27,6 +27,8 @@ nav{
     align-items: center;
     cursor: pointer;
 }
+
+
 .btn{
     display: inline-block;
     cursor: pointer;
@@ -125,7 +127,9 @@ nav{
 }
 .select-container select{
     padding: .6rem 1rem;
-    color: var( --lightBlue);
+    /* color: var( --lightBlue); */
+    color:  #0D325CCC;
+
     width: 100%;
     border-radius: 40px ;
     border: transparent;
