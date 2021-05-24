@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/default.css">
+    <link rel="stylesheet" href="./css/loginOrSignin.css">
     <title>Missing Person</title>
 </head>
 <body>
@@ -91,7 +92,32 @@
 
     <!-- start of container -->
     <div class="container">
-        
+
+        <form action="" class="loginOrsignupForm">
+            <h2>Login</h2>
+
+            <div class="input_box">
+                <input type="text" placeholder="Username:"  name="username">
+            </div>
+
+            <div class="input_box">
+                <input type="password" class="btn btn_login" placeholder="Password:" >
+            </div>
+
+            <input type="submit" value="Login">
+
+            <div class="extra_login_info">
+                <div>
+                    <input type="checkbox" name="" class="" id="remeberMe">
+                    <label for="remeberMe">Remeber Me</label>
+                </div>
+
+                <a href="">Forgot Password ?</a>
+
+            </div>
+
+            <p>Dont have an account? <a href="">Sign in</a> </p>
+        </form>
 
     </div>
     <!-- end of container -->
