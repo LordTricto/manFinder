@@ -10,7 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/default.css">
     <link rel="stylesheet" href="./css/loginOrSignin.css">
-    <title>Login Page</title>
+
+    <title>Sign Up</title>
 </head>
 <body>
     <!-- start of nav -->
@@ -92,33 +93,62 @@
 
     <!-- start of container -->
     <div class="container">
+           <!-- start of post_person_info -->
+           <!-- this is a signup form that is just inheriting the grid property from post_person_info class -->
+           <form action="" id="" class="loginOrsignupForm signup">
+                <h2>Sign up</h2>
 
-        <form action="" class="loginOrsignupForm login">
-            <h2>Login</h2>
+                <div class="post_person_info">
+                    <div class="input_box">
+                        <input type="text" placeholder="First Name:">
+                    </div>
+        
+                    <div class="input_box">
+                        <input type="text" placeholder="last Name:">
+                    </div>
+        
+        
+                    <div class="input_box">
+                        <input type="email" placeholder="Email:">
+                    </div>
+        
+                    <div class="input_box">
+                        <input type="text" placeholder="Phone Number:">
+                    </div>
 
-            <div class="input_box">
-                <input type="text" placeholder="Username:"  name="username">
-            </div>
+                    <div class="input_box">
+                        <input type="text" placeholder="Username:">
+                    </div>
+                    
+                    <div class="input_box">
+                        <input type="password" placeholder="password:">
+                    </div>
 
-            <div class="input_box">
-                <input type="password" class="btn btn_login" placeholder="Password:" >
-            </div>
 
-            <input type="submit" value="Login">
 
-            <div class="extra_login_info">
-                <div>
-                    <input type="checkbox" name="" class="" id="remeberMe">
-                    <label for="remeberMe">Remeber Me</label>
+                    <div class="select_box">
+                        <select name="" class="state" id="">
+                            <option value="" selected>State</option>
+                        </select>
+                        <div class="select_drop_down"><i class="fas fa-angle-down"></i></div>
+                    </div>
+        
+    
+                    <div class="input_box">
+                        <input type="text" placeholder="Address:">
+                    </div>
                 </div>
+  
+            <input type="submit" value="Sign up">
+            <p>already have an account? <a href="login.html">Sign in</a> </p>
 
-                <a href="">Forgot Password?</a>
+                
 
-            </div>
 
-            <p>Dont have an account? <a href="signup.html">Sign up</a> </p>
-        </form>
+           </form>
+        <!-- end of post_person_info -->
 
+    
     </div>
     <!-- end of container -->
 

@@ -31,6 +31,10 @@
     transition: all .2s ease-out;
     outline: none;
 }
+.signup input[type=submit]{
+    font-size: 1.3rem;
+
+}
 
 .loginOrsignupForm input[type=submit]:hover{
 
@@ -60,4 +64,13 @@
     text-align: center;
     color:var(--thick-blue);
 
+}
+
+
+
+
+@media screen and (min-width:600px){
+    .signup input[type=submit]{
+        width: 50%;    
+    }
 }
