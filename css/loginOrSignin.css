@@ -1,0 +1,63 @@
+
+.loginOrsignupForm h2{
+    color: var(--thick-blue);
+
+    font-weight: 400;
+    text-align: center;
+    padding: 2rem 0;
+    
+}
+.login{
+    /* border:  1px solid red; */
+    margin: 5% auto;
+    max-width: 400px;
+
+
+}
+
+.loginOrsignupForm input[type=submit]{
+    display: block;
+    background-color: var(--thick-blue);
+    border: transparent;
+    box-shadow: 0px 3px 6px #00000070;
+    border-radius: 50px;
+    color: #FFFFFFD8;
+    padding: 1rem 1.9rem;
+    font-size: 1rem;
+    width: 70%;
+    margin: 4% auto;
+    cursor: pointer;
+    /* transform: scale(1); */
+    transition: all .2s ease-out;
+    outline: none;
+}
+
+.loginOrsignupForm input[type=submit]:hover{
+
+    transform: translateY(-5px);
+ 
+}
+
+.loginOrsignupForm input[type=submit]:focus{
+
+    transform: translateY(0);
+ 
+}
+
+.login .extra_login_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--thick-blue);
+    margin: 10% 0;
+}
+.login .extra_login_info a{
+    color:var(--thick-blue);
+
+}
+
+.loginOrsignupForm p,a{
+    text-align: center;
+    color:var(--thick-blue);
+
+}
