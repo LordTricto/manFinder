@@ -13,8 +13,19 @@ body{
     
     font-family: 'Poppins', sans-serif;
 }
+/* hover animation */
+.scaleWhenHover{
+    transition: transform .2s ease-out;
+}
+.scaleWhenHover:hover{
+    transform:scale(1.1,1.1);
+}
+.scaleWhenHover:active{
+    transform:scale(1);
 
+}
 
+/*  */
 li{
     list-style-type: none;
 

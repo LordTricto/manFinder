@@ -95,6 +95,18 @@
     <div class="container" >
         <!-- start of items_nav -->
         <div class="items_nav">
+            <p style="color:#1A508C;">Filter By location</p>
+            <form action="">
+                <div class="select-container" style="color:#1A508C;">
+                    <div class="select-icon" style="background-color:#ECECEC99;"><i class="fas fa-angle-down"></i></div>
+                    <select name="" id="loction" style="background-color:#ECECEC99;">
+                        <option value="" selected>Location</option>
+                        <option value="" >Hello World</option>
+                    </select>
+                </div>
+            </form>
+
+            <h2 style="font-size: 1rem;color:#1A508C;padding:.9rem 0;">Category</h2>
             <!-- this is where u will see vechiles mobile phones eletronics nav -->
             <li>
                 <i class="fas  li-icon fa-car"></i>
@@ -220,8 +232,9 @@
                 <!-- start of items_grid -->
                 <div class="items_grid listOfitems2items_grid">
                     <!-- start of item -->
-                    <div class="item">
-                        <img src="./img/dummy Pics.jpg" class="item_pics" alt="">
+                    <!-- u can use div or a tag depending on what u want -->
+                        <a href="" class="item scaleWhenHover">
+                            <img src="./img/dummy Pics.jpg" class="item_pics" alt="">
 
                         <div class="item_content">
                             <!-- this is postioned absolute in css that why i named it -->
@@ -239,7 +252,8 @@
                             <!-- <button class="btn item_button">Boosted</button> -->
                         </div>
 
-                    </div>
+                        </a>
+                
                     <!-- start of item -->
 
 
@@ -487,14 +501,9 @@
                 <!-- start of items_grid -->
             </div>
 
-
-
-
-
-
-
-
         </main>
+        <!-- end of  this where the main content will be located -->
+        
 
 
 
