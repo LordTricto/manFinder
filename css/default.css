@@ -234,7 +234,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    pointer-events: none;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
 }

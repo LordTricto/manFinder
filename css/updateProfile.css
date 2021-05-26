@@ -1,0 +1,25 @@
+
+
+.post_person_box .heading{
+    font-size: 1.8rem;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 1rem 0 ;
+}
+
+@media screen and (min-width:700px)
+{
+
+    .container{
+        display: grid;
+        grid-template-columns: 30% auto;
+        max-width: unset;
+        column-gap: 20px;
+        max-width: 1500px;
+        margin: 0 auto;
+        border: 1px solid red;
+        align-items: center;
+    }
+
+
+}

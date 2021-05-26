@@ -1,0 +1,77 @@
+/* this is the style wokrks on the pane that has this user pics and some link in
+it -- it a pane that has blue backgound
+fount in updateProfile.html and some othe pages
+*/
+
+
+.user_nav_pane{
+    background-color: var(--thick-blue);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 15px;
+    padding: 2rem 0;
+}
+
+.user_nav_pane__user_info_section__image{
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+    
+    /* border: 1px solid red; */
+}
+
+.user_nav_pane__user_info_section img{
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+}
+.user_nav_pane__user_info_section__name{
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--veryLightBlue);
+}
+
+.user_nav_pane__links{
+
+}
+
+.user_nav_pane__links li a{
+    display: block;
+    color: var(--veryLightBlue);
+    text-decoration: none;
+    padding: .9rem 1rem;
+    background-color: #1A508C;
+    text-align: center;
+    /* border: 1px solid salmon; */
+}
+
+@media screen and (min-width:500px){
+    .user_nav_pane__links{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        width: 100%;
+    }
+
+    .user_nav_pane__links li a{
+       width: 100%;
+    }
+    .user_nav_pane__user_info_section__name{
+        font-size: 1.6rem;
+    padding: 1.2rem 0;
+
+    }
+    
+}
+
+
+@media screen and (min-width:700px){
+
+    .user_nav_pane__links{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 0px;
+        width: 100%;
+    }
+    
+
+}
