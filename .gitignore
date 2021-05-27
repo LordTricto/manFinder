@@ -5,7 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
-
+./css/boot/
 ./fontawesome-free-5.15.3-web
 .fontawesome-free-5.15.3-web/
 # Distribution / packaging
