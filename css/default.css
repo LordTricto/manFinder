@@ -258,6 +258,10 @@ nav{
     width: 100%;
     margin: 4% 0;
 }
+textarea::placeholder{
+    color:  #0D325CCC;
+    font-weight: 600;
+}
 
 input::placeholder{
     /* margin-left: 10%; */
