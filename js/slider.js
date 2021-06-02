@@ -49,7 +49,7 @@ leftBtn.addEventListener('click',()=>{
 
 rightBtn.addEventListener('click',()=>{
     Reset()
-    console.log(slideState)
+    // console.log(slideState)
     if(slideState === sliderImages.length-1){
         slideState = -1
     }
