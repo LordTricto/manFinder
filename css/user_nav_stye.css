@@ -44,6 +44,39 @@ fount in updateProfile.html and some othe pages
     /* border: 1px solid salmon; */
 }
 
+
+
+/* start of contact_us_info_pane */
+.contact_us_info_pane{
+    color: #FFFFFFD8;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+}
+.contact_us_info_pane_header{
+font-size: 1.1rem;
+margin-bottom: 10%;
+}
+.contact_us_info_pane p:not(.contact_us_info_pane_header){
+    margin: 5% 0;
+}
+.contact_us_info_pane p i{
+    /* border: 1px solid red; */
+    margin-right: .8rem;
+}
+.circle_box{
+    /* we dont need this extra stying when we get to the laptopscreen we can turn it to a playground! */
+    display: none;
+}
+.contact_us_info_pane_socials{
+    margin-top: 30px;
+
+}
+.contact_us_info_pane_socials a{
+    color: #FFFFFFD8;
+    padding-right: 10px;
+}
+
+/* end of contact_us_info_pane */
 @media screen and (min-width:500px){
     .user_nav_pane__links{
         display: grid;

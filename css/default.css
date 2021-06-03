@@ -525,7 +525,7 @@ padding: .5rem .7rem;
     }
     .laptop_navlinks .select-container{
         /* border: 1px solid yellow; */
-        width: 40%;
+        width: 50%;
         margin: 0;
     }
     .laptop_navlinks .select-container select{
@@ -538,7 +538,7 @@ padding: .5rem .7rem;
         
     }
     .laptop_navlinks #laptop_navlinks_searchText{
-        width: 60%;
+        width: 50%;
         border: transparent;
         /* border: 1px solid red; */
         margin: 0;

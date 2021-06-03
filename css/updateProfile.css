@@ -10,6 +10,8 @@
     padding: 1rem 0 ;
 }
 
+
+
 @media screen and (min-width:700px)
 {
 
@@ -24,5 +26,23 @@
         align-items: center;
     }
 
+        .contact_us_info_pane{
+            height: 70%;
+            justify-self: end;
+        }
+
+    .container .post_person_box.contactBox{
+        /* border: 1px solid red; */
+        max-width: 400px;
+    }
+
+    .container.container-in-contactus{      
+        max-width: 900px;    
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        grid-template-columns: 40% auto;
+
+    }
 
 }
+
