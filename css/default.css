@@ -30,8 +30,9 @@ li{
     list-style-type: none;
 
 }
-select{
+select,input,textarea{
     outline: none;
+    cursor: pointer;
 }
 
 nav{
