@@ -361,6 +361,11 @@ input::placeholder{
 
 
 /* priceing styling */
+
+.price_container{
+    max-width: unset;
+    width: 100%;
+}
 .price_container{
     /* padding: 3% 0; */
 }
@@ -529,7 +534,13 @@ padding: .5rem .7rem;
 
 
 @media screen and (min-width:700px) {
-    
+    .price_container{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,330px);
+    gap: 0 30px;
+
+    }
     .footer_other_links{
         display: grid;
         grid-template-columns: repeat(3 ,1fr);
@@ -567,7 +578,6 @@ padding: .5rem .7rem;
 }
 
 @media screen and (min-width:1000px) {
-    
     nav{
         display: flex;
         justify-content:space-between;
@@ -686,3 +696,13 @@ padding: .5rem .7rem;
 }
 
 
+
+@media screen and (min-width:1076px) {
+    .price_container{
+        display: grid;
+        grid-template-columns: repeat(3,330px);
+        margin: 5% auto;
+        max-width: 1076px;
+     }
+
+}
