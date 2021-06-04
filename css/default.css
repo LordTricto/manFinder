@@ -360,6 +360,84 @@ input::placeholder{
 /* end upldaod image section */
 
 
+/* priceing styling */
+.price_container{
+    /* padding: 3% 0; */
+}
+.price_card{
+    margin: 5% auto;
+    background-color: #1A508C;
+    padding: 1.2rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 6px #00000033;
+    width: 330px;
+    height: 400px;
+    
+}
+
+.price_body_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+    height: 80%;
+}
+/* this style is for all element inside price_header_container */
+.price_header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 0 ;
+    margin-bottom: 4%;
+}
+.price_category h3{
+    color: #fffffffd;
+    font-size: 1.6rem;
+   font-weight: 500;
+}
+.price_category .price_category_underline{
+    background-color: #FFFFFFD8;
+    height: 2px;
+    width: 25px;
+}
+.price_amount_details{
+    color: #FFFFFFD8;
+    text-align: center;
+}
+.price_amount_details .price_amount{
+    font-size: .9rem;
+}
+
+.price_amount_details .price_duration{
+    font-size: .7rem;
+}
+
+.price_listed_item{
+    color: #FFFFFFD8;
+    text-align: center;
+    padding: .7rem 0;
+}
+.subscibe_btn{
+    color: #FFFFFFD8;
+    background-color:var(--thick-blue);
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    border: none;
+    padding: .7rem 1.2rem;
+    font-size: .9rem;
+    width: 80%;
+    outline: none;
+    margin: 4% auto;
+    display: block;
+    cursor: pointer;
+}
+
+/*end of style for all element inside price_header_container */
+
+/* end of priceing styling */
+
+
 /* footer section */
 
 footer{

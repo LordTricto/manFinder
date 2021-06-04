@@ -48,7 +48,7 @@
     .container.container-in-contactus{      
         /* padding: 0; */
         max-width: 1200px; 
-        border: 1px solid red;
+        /* border: 1px solid red; */
         justify-content: center;
         grid-template-columns: 30% 50%;
         gap: 0 70px;
