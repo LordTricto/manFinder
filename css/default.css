@@ -502,7 +502,9 @@ footer{
 .footer_container .finderman-Logo{
     margin: 6% 0;
 }
-
+.danloadOur_app img{
+    width: 200px;
+}
 .footer_other_links {
     padding: 1rem 0;
     color: #FFFFFFD8;
