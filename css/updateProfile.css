@@ -15,6 +15,7 @@
  .editupload_card{
     box-shadow: 0px 3px 6px #00000054;
     border-radius: 5px;
+    margin: 9% 0;
     /* border: 1px solid red; */
     /* padding: 0 1rem; */
 }
@@ -28,11 +29,11 @@
     
 }
 .editupload__moreinfo{
-    padding: .9rem .8rem;
+    padding: .9rem 1rem;
     display: grid;
     /* border: 1px solid yellow; */
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     /* text-align: center  ; */
     grid-template-columns: repeat(4,1fr);
     grid-template-areas: 
@@ -45,9 +46,14 @@
 
 .editupload__nameinfo{
     grid-area:editupload__nameinfo ;
+    align-self: stretch;
+
 }
 .num_of_view{
     grid-area:num_of_view ;
+    justify-self: center;
+    align-self: stretch;
+
 
 }
 .boosted{
@@ -60,7 +66,9 @@
 }
 .edit_btn{
     grid-area:edit_btn ;
-
+    width: 100%;
+    /* align-items: right; */
+    justify-self: right;
 }
 
 
@@ -97,7 +105,7 @@ padding: .3rem 0 ;
     padding: .4rem 1rem;
     border-radius: 4px;
     /* margin:  0 auto; */
-    /* display: block; */
+    display: block;
     /* display: block; */
     width: 120px;
 
@@ -205,4 +213,49 @@ padding: .3rem 0 ;
         margin: 0;
         font-size: 1.5rem;
     }
+}
+
+@media screen and (min-width:500px) {
+    .editupload__moreinfo .boosted{
+        width: 150px;
+    }
+    .editupload__moreinfo .btn{
+        width: 150px;
+    padding: .8rem 1rem;
+
+    }
+
+
+
+    
+}
+
+@media screen and (min-width:960px){
+    .editupload_card{
+        display: flex;
+        padding: .9rem;
+        max-width: 800px;
+        margin: 4% auto;
+    }
+    .editupload__image_container{
+        width: 40%;
+    }
+    .editupload__moreinfo{
+        width:60%;
+    }
+    .editupload__moreinfo .boosted{
+        width: 100px;
+    }
+    .editupload__moreinfo .btn{
+        width: 100px;
+    }
+    
+    .editupload__moreinfo{
+        grid-template-areas: 
+        "editupload__nameinfo editupload__nameinfo num_of_view num_of_view"
+        
+        "boosted . delete_btn edit_btn"
+        "boosted . delete_btn edit_btn"
+        ;
+    }    
 }
