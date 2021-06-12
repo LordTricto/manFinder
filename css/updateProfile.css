@@ -11,6 +11,102 @@
 }
 
 
+/* this style if for edituploadPage */
+ .editupload_card{
+    box-shadow: 0px 3px 6px #00000054;
+    border-radius: 5px;
+    /* border: 1px solid red; */
+    /* padding: 0 1rem; */
+}
+.editupload__image_container{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.editupload__image_container img{
+    width: 100%;
+    height: 100%;
+    
+}
+.editupload__moreinfo{
+    padding: .9rem .8rem;
+    display: grid;
+    /* border: 1px solid yellow; */
+    align-items: center;
+    justify-content: center;
+    /* text-align: center  ; */
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "editupload__nameinfo editupload__nameinfo num_of_view num_of_view"
+    "boosted . . ."
+    "delete_btn delete_btn edit_btn edit_btn"
+    ;
+    gap:20px 2px;
+}
+
+.editupload__nameinfo{
+    grid-area:editupload__nameinfo ;
+}
+.num_of_view{
+    grid-area:num_of_view ;
+
+}
+.boosted{
+    grid-area:boosted ;
+
+}
+.delete_btn{
+    grid-area:delete_btn ;
+
+}
+.edit_btn{
+    grid-area:edit_btn ;
+
+}
+
+
+
+.editupload__nameinfo p:not(.item_name){
+color: #0D325C;
+font-size: .8rem;
+padding: .3rem 0 ;
+}
+.editupload__nameinfo .item_name{
+    font-size: 1.5rem;
+    color: var(--thick-blue) ;
+}
+
+.editupload__moreinfo .num_of_view{
+    margin: .4rem 0;
+    color: #0000007A;}
+
+.editupload__moreinfo .boosted{
+    border: transparent;
+    background-color: #1A508C;
+    color: #FFFFFFD8;
+    padding: .4rem 1rem;
+    /* display: block; */
+    width: 100px;
+    cursor: pointer;
+}
+
+.editupload__moreinfo .btn{
+    color: #FFFFFFD8;
+    cursor: pointer;
+    border: transparent;
+    background-color: #1A508C;
+    padding: .4rem 1rem;
+    border-radius: 4px;
+    /* margin:  0 auto; */
+    /* display: block; */
+    /* display: block; */
+    width: 120px;
+
+}   
+.btn.delete_btn{
+    background-color: #7E0000;
+}
+/* end of  if for edituploadPage */
+
 
 @media screen and (min-width:700px){
     .submit_contact_btn{

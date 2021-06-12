@@ -30,17 +30,20 @@ fount in updateProfile.html and some othe pages
     color: var(--veryLightBlue);
 }
 
-.user_nav_pane__links{
-
+.user_nav_pane__links li i{
+    margin-right: 10px;
+    text-align: center;
+    /* border: 1px solid red; */
 }
 
 .user_nav_pane__links li a{
     display: block;
     color: var(--veryLightBlue);
     text-decoration: none;
-    padding: .9rem 1rem;
+    padding: 1rem 1rem;
     background-color: #1A508C;
     text-align: center;
+    border-bottom:1px solid #FFFFFF21;
     /* border: 1px solid salmon; */
 }
 
